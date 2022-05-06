@@ -56,52 +56,11 @@
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5 text-center">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-md-6">
-                <form id="form" class="p-5 card shadow">
-                    @csrf
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Nome</label>
-                      <input id="first_name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Cognome</label>
-                        <input id="surname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Username</label>
-                        <input id="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input id="email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
-                        <input id="street" placeholder="indirizzo" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <input id="city" placeholder="città" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <input id="zip_code" placeholder="CAP" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <select id="country" class="form-control">
-                            <option value="Italy">Italia</option>
-                            <option value="Spain">Spagna</option>
-                            <option value="Germany">Germania</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Tipo utente</label><br>
-                        <input id="company" type="checkbox" class=""> Azienda
-                        <input id="private" type="checkbox" class=""> Privato
-                        <input id="company_name" type="text" class="form-control d-none" placeholder="Nome azienda">
-                        <input id="company_description" type="text" class="form-control d-none" placeholder="Descrizione azienda">
-                        
-
-                    </div>
-                    
-    
-                    <button id="submit_button" type="button" class="btn btn-primary">Submit</button>
-                    <div id="alert_message" class="alert alert-success d-none">Hai correttamente inserito i tuoi dati</div>
-                </form>
+               <h2 class="display-3">Controlla gli utenti</h2>
+               <button id="show_user" class="btn btn-primary">Mostra</button>
             </div>
         </div>
     </div>

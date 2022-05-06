@@ -25,3 +25,7 @@ Route::get('form', function(){
 Route::post('form/store', function(Request $request){
     dd($request->all());
 })->name('store');
+
+Route::get('admin', function(){
+    return view('admin');
+})->name('admin');
